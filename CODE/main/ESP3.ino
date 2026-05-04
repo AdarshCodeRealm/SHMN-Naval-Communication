@@ -7,7 +7,7 @@
 #define NODE_NAME "ESP3"
 
 Scheduler userScheduler;
-painlessMesh mesh;
+painlessMesh mesh; 
 
 // ================= RECEIVE =================
 void receivedCallback(uint32_t from, String &msg) {
